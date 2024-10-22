@@ -24,7 +24,7 @@ body {
   background: linear-gradient(153deg, #2a1b60 50%, #ebeef5 50%);
 }
 
-#card:hover {
+/* #card:hover {
   transform: rotate(360deg);
 }
 
@@ -33,9 +33,9 @@ body {
   position: relative;
   box-shadow: none;
   background: none;
-}
+} */
 
-.rotating-card .card-side {
+/* .rotating-card .card-side {
   transition: all 0.8s ease;
   backface-visibility: hidden;
   position: absolute;
@@ -43,9 +43,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
 
-.rotating-card .card-side.back {
+/* .rotating-card .card-side.back {
   transform: rotateY(-180deg);
 }
 
@@ -55,4 +55,8 @@ body {
 
 .rotating-card:hover .card-side.back {
   transform: rotateY(0deg);
+} */
+
+.isActive{
+  color : #73afe8 !important;
 }
