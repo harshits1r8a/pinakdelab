@@ -17,6 +17,26 @@ moboicon.addEventListener('click', (e) => {
         toggle = false;
     }
 })
+
+// Counter
+const counters = document.querySelectorAll('.counter');
+
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target'); // Get target number
+      const count = +counter.innerText; // Current count value
+      const increment = target / 200; // Control the speed by dividing
+
+      if (count < target) {
+        counter.innerText = Math.ceil(count + increment);
+        setTimeout(updateCount, 10); // Repeat every 10ms
+      } else {
+        counter.innerText = target; // Ensure it ends exactly at target
+      }
+    };
+
+    updateCount();
+  });
   
   
   

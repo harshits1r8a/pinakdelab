@@ -66,3 +66,7 @@ body {
 .pc2{
   color : #2A1768 !important;
 }
+
+.counter {
+  transition: all 0.3s ease-in-out;
+}
