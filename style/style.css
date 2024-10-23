@@ -21,7 +21,7 @@ body {
 
 .diagonal-bg {
   height: 100%;
-  background: linear-gradient(153deg, #2a1b60 50%, #ebeef5 50%);
+  background: linear-gradient(153deg, #2A1768 50%, #ebeef5 50%);
 }
 
 /* #card:hover {
@@ -59,4 +59,10 @@ body {
 
 .isActive{
   color : #73afe8 !important;
+}
+.pc{
+  color : #73afe8 !important;
+}
+.pc2{
+  color : #2A1768 !important;
 }
